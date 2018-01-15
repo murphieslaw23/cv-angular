@@ -25,14 +25,17 @@
         "../node_modules/fancybox/dist/css/jquery.fancybox.css",
         "../node_modules/mediaelement/build/mediaelementplayer.css",
         "assets/fonts/map-icons/css/map-icons.min.css",
-        "styles.css"
+        "assets/fonts/icomoon/style.css",
+        "styles.css",
+        "assets/colors/amber.css"
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.js",
         "../node_modules/bxslider/dist/jquery.bxslider.js",
         "../node_modules/owlcarousel/owl-carousel/owl.carousel.js",
         "../node_modules/fancybox/dist/js/jquery.fancybox.js",
-        "../node_modules/mediaelement/build/mediaelement-and-player.js"
+        "../node_modules/mediaelement/build/mediaelement-and-player.js",
+        "assets/site.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

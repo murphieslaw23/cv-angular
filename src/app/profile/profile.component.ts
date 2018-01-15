@@ -13,9 +13,8 @@ export class ProfileComponent implements OnInit {
     street: string;
     email: string;
     phone: string;
-
+    photo: string;
     vacation: string;
-    freelance: string;
     position: string;
 
     welcomeText: string;
@@ -33,7 +32,7 @@ export class ProfileComponent implements OnInit {
         this.phone = '+49 1520 5650080';
         this.street = 'Feldstr. 43A';
         this.vacation = '31.01.2018';
-
+        this.photo = '../../assets/img/uploads/rs-photo-v1.jpg';
     }
 
 }

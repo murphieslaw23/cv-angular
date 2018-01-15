@@ -5,13 +5,17 @@ import {FormsModule} from '@angular/forms';
 import { ProfileComponent } from './profile/profile.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { MobilenavComponent } from './mobilenav/mobilenav.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         ProfileComponent,
         HeaderComponent,
-        FooterComponent
+        FooterComponent,
+        MobilenavComponent,
+        SidebarComponent
     ],
     imports: [
         BrowserModule,
