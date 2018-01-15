@@ -19,10 +19,21 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "../node_modules/bxslider/dist/jquery.bxslider.css",
+        "../node_modules/owlcarousel/owl-carousel/owl.carousel.css",
+        "../node_modules/owlcarousel/owl-carousel/owl.theme.css",
+        "../node_modules/fancybox/dist/css/jquery.fancybox.css",
+        "../node_modules/mediaelement/build/mediaelementplayer.css",
+        "assets/fonts/map-icons/css/map-icons.min.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.js",
+        "../node_modules/bxslider/dist/jquery.bxslider.js",
+        "../node_modules/owlcarousel/owl-carousel/owl.carousel.js",
+        "../node_modules/fancybox/dist/js/jquery.fancybox.js",
+        "../node_modules/mediaelement/build/mediaelement-and-player.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
